@@ -1,0 +1,2 @@
+[09-Jun-2018 02:53:51 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_action() in /home/ervaacom/public_html/wp-content/plugins/hello.php on line 60
+[14-Jul-2018 15:38:23 Asia/Jakarta] PHP Fatal error:  Call to undefined function add_action() in /home/ervaacom/public_html/wp-content/plugins/hello.php on line 60

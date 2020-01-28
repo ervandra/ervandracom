@@ -1,0 +1,92 @@
+body { font-family: "Roboto", arial; font-weight:300;}
+h1,h2,h3,h4,h5,h6 { font-family: "Roboto", arial; font-weight:700; margin:0 0 1rem;}
+[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea { font-family:"Roboto", arial; font-weight:300; }
+.button, button { font-family: "Roboto", arial; font-weight:700; }
+.header { background:#ddd}
+.header .logo img { max-height:80px; width:auto; filter:invert(100%);}
+.mainmenu {}
+.mainmenu ul { display:flex; justify-content:flex-end; align-items:center; margin:0; padding:20px 0;}
+.mainmenu li { display:block; white-space:nowrap; text-align:center;}
+.mainmenu li+li { margin-left:1.5rem; }
+.mainmenu li.user { margin-left:2rem; }
+.mainmenu a { font-family: "Roboto", arial; text-transform:capitalize; font-weight:400; line-height: 40px; font-size:14px; padding:0rem; color:#222;}
+.mainmenu a .badge { line-height:1; min-width:1.375rem; height:1.375rem; line-height: 1.375rem; font-size:11px; padding:0; background:#ae2b26}
+.mainmenu a .fa-inverse { color:#fff}
+.mainmenu li.user a { display:flex; text-align:left; align-items:center; line-height:1.125rem;}
+.mainmenu li.user .fa-stack { margin-right:.375rem; color:#222}
+.mainmenu li.challenge a { position:relative; }
+.mainmenu li.challenge a:before { display:block; content:"HOT"; position:absolute; top:-1.375rem; padding:.25rem .375rem; font-size:.5625rem; background:#ccc; line-height:1; z-index:0; border-radius:4px; background:#ae2b26; color:#fff; left:50%; width:34px; text-align:center; margin-left:-17px; z-index:1;}
+.mainmenu li.challenge a:after { display:block; content:""; position:absolute; top:-.75rem; width:10px; height:10px; background:#ae2b26; left:50%; margin-left:-5px; z-index:0; transform:rotate(45deg);}
+
+
+.searchbox { padding:1.25rem 0; max-width:300px; margin:0 auto;}
+.searchbox input, .searchbox button { margin:0; height:40px; border:none;}
+.searchbox input { border-radius:4px 0 0 4px; }
+.searchbox button { border-radius:0 4px 4px 0; background:#222; color:#ddd;}
+
+.ciayoslider img { width:100%; height:auto;}
+.ciayoslider ul { margin:0; padding:0;}
+.ciayoslider li { display:block;}
+
+.recommendation { background:#f5f5f5; padding:36px 0;}
+.recommendation h2 {text-transform:uppercase; letter-spacing:.5px; font-size:18px; color:#222; font-weight:400}
+.recommendation h2 small { text-transform:none; font-weight:300; font-size:16px; letter-spacing:0; color:#757575; vertical-align:baseline;}
+h2 small:before { display:inline-block; content:"/"; margin:0 .75rem 0 .5rem; }
+.recommendation img { margin-bottom:1rem; }
+.recommendation a { transition:all ease-in-out .3s; }
+.recommendation a:hover, .recommendation a:focus { opacity:.66; }
+.recommendation .grid-x .cell:nth-child(2) img { filter:hue-rotate(30deg) }
+.recommendation .grid-x .cell:nth-child(3) img { filter:hue-rotate(90deg) }
+.recommendation .grid-x .cell:nth-child(4) img { filter:hue-rotate(150deg) }
+.recommendation .grid-x .cell:nth-child(5) img { filter:hue-rotate(210deg) }
+
+.section { padding:2rem 0; }
+.section h2 { text-transform:uppercase; letter-spacing:.5px; font-size:18px; font-weight:400}
+.section h2 small { text-transform:none; font-weight:300; font-size:16px; letter-spacing:0; color:#757575;  vertical-align:baseline;}
+
+.section.collapse { margin-top:-2rem; padding-top:0;}
+
+.comic-grid { position:relative; margin:0 0 1rem; transition:all ease-in-out .3s;}
+.comic-grid:hover, .comic-grid:focus { transform:scale(0.96); transform-origin:50% 50%; opacity:1; }
+.comic-grid img { width:100%; height:auto; width: calc(100% + 4px); margin:-2px; max-width:none;}
+.comic-grid .c-img { border:1px solid #ccc; margin-bottom:0; overflow:hidden;}
+.comic-grid h4 { font-size:13px; margin:0; line-height: 1.4; font-weight:300; font-family: "Roboto", arial; color:#df6e22}
+.comic-grid h3 { font-size:.875rem; margin:0; line-height: 1.4; font-weight:300; letter-spacing:-.2px; white-space:nowrap; overflow:hidden;}
+.comic-grid a { display:block; position:absolute; left:0; top:0; right:0; bottom:0; text-indent:-99999px; opacity:.5; z-index:5;}
+.comic-grid h4 { position:absolute; top:0; left:0; border-radius:0 0 4px 0; background:rgba(255,255,255,1); padding:0 .5rem; line-height:32px; transition:all ease-in-out .3s; border:1px solid #ccc;}
+.comic-grid:hover h4, .comic-grid:focus h4 { opacity:0; }
+.comic-grid h3 { position:absolute; bottom:0; left:0; right:0; background:rgba(0,0,0,.8); color:#fff; line-height:40px; padding:0 .5rem; margin:0; transition:all ease-in-out .3s;}
+.comic-grid:hover h3, .comic-grid:focus h3 { opacity:0; }
+
+.favorite.collapse { background:#222; margin-top:-1px; position:relative; padding-top:2rem; padding-bottom:2.5rem; margin-bottom:1.5rem;}
+.favorite h2 { color:#fff; }
+.favorite h2 small { color:#ddd; }
+.favorite h2 { margin-left:1.25rem; }
+.favorite .button.hollow { border-color:#fff; color:#fff; }
+.favorite .section-content { padding:0 .625rem; }
+.favorite .comic-grid { transform:skewX(-6deg); }
+.favorite .comic-grid h3 { background:rgba(255,255,255,.8); color:#222; }
+
+.install { padding:0; background:#fff; }
+.cell-install { width:248px; height:137px; background:url(https://www.ciayo.com/static/media/app-download.c1087dd5.jpg) center right -70px no-repeat; margin-right:1rem;}
+.cell-content p { font-size:.875rem; color:#5b5b5b; }
+ul.install-app { display:flex; justify-content:flex-start; align-items:center; margin:0; padding:0; }
+ul.install-app li { display:block; }
+ul.install-app li+li { margin-left:1rem; }
+ul.install-app li a { display:block; padding:0 .5rem; font-weight:400; line-height:32px; font-size:.75rem; border:1px solid #5b5b5b; border-radius:4px; color:#8a8a8a}
+ul.install-app li a .fa { margin-right:.375rem; font-size:1rem; }
+
+.footer { background:#222; padding:1.5rem 0;}
+.footer-menu ul { margin:0; padding:0; display:flex; justify-content:center;}
+.footer-menu li { display:block; margin:0 1rem; font-size:.75rem;}
+.footer-menu a { color:#ddd }
+.copyright { font-size:.875rem; color:#ddd; }
+
+@media only screen and (max-width:1100px){
+	.section { padding:2rem 1rem; }
+}
+
+@media only screen and (max-width:40em){
+	.header .logo img { max-height:40px; }
+	.header .mainmenu { display:none; }
+}

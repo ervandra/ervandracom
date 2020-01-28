@@ -1,0 +1,17 @@
+/* Prismatic - Settings Styles */
+
+.prismatic-version { color: #c7c7c7; font-size: 90%; }
+
+.wp-admin form h2 { margin-top: 20px; }
+
+.wp-admin .prismatic-label { display: block; margin: 3px 0 0 3px; color: #777; font-size: 13px; font-style: italic; }
+.wp-admin .inline-block { display: inline-block; vertical-align: baseline; }
+.wp-admin textarea + label { margin: 0 0 0 3px; }
+
+.wp-admin input[type=checkbox] { margin-top: -3px; }
+.wp-admin input[type=checkbox] + label { margin: 0; }
+
+.ui-dialog .ui-dialog-buttonpane, .ui-dialog .ui-dialog-titlebar, .ui-dialog .cfx-modal-dialog { text-align: center; }
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { float: none; }
+.ui-dialog .ui-dialog-buttonpane .ui-button { margin: 0; }
+.ui-dialog .ui-dialog-buttonpane .ui-button:first-child { margin-right: 15px; }

@@ -1,0 +1,46 @@
+* { font-family: "Open Sans", "nexaregular", "Roboto", arial; }
+h1,h2,h3,h4,h5,h6 { font-family:"Open Sans", "nexaheavy", "Roboto", arial; font-weight:bold; margin:0 0 1rem;}
+.button, button { font-family: "Open Sans", "nexaheavy", "Roboto", arial; font-weight:bold; }
+.header { background:#222}
+.header .logo img { max-height:80px; width:auto;}
+.mainmenu { padding-left:40px}
+.mainmenu ul { display:flex; justify-content:flex-end; margin:0; padding:0;}
+.mainmenu li { display:block; max-width:154px; white-space:nowrap; flex:1; text-align:center}
+.mainmenu a { font-family:"Open Sans", "nexaheavy", "Roboto", arial; text-transform:uppercase; font-weight:bold; font-size:14px; line-height:80px;padding:0 1rem; color:#fff;}
+.mainmenu a .fa-inverse { color:#000}
+
+.ciayoslider img { width:100%; height:auto;}
+.ciayoslider ul { margin:0; padding:0;}
+.ciayoslider li { display:block;}
+
+.recommendation { background:#011118; padding:36px 0;}
+.recommendation h2 {text-transform:uppercase; letter-spacing:.5px; font-size:18px; color:#fff;}
+.recommendation a { transition:all ease-in-out .3s; }
+.recommendation a:hover, .recommendation a:focus { opacity:.66; }
+
+.section { padding:2rem 0; }
+.section h2 { text-transform:uppercase; letter-spacing:.5px; font-size:18px;}
+.section.collapse { margin-top:-2rem; padding-top:0;}
+
+.comic-grid { position:relative; margin:0 0 1rem; transition:all ease-in-out .3s;}
+.comic-grid:hover, .comic-grid:focus { transform:scale(0.96); transform-origin:50% 50%; opacity:.66; }
+.comic-grid img { width:100%; height:auto; width: calc(100% + 4px); margin:-2px; max-width:none;}
+.comic-grid .c-img { border:1px solid #ccc; margin-bottom:.5rem; overflow:hidden;}
+.comic-grid h4 { font-size:14px; margin:0; line-height: 1.4; font-weight:normal; font-family:"Open Sans", "nexaregular", "Roboto", arial; color:#df6e22}
+.comic-grid h3 { font-size:1rem; margin:0; line-height: 1.4; font-weight:bold; }
+.comic-grid a { display:block; position:absolute; left:0; top:0; right:0; bottom:0; text-indent:-99999px; opacity:.5; z-index:5;}
+
+.footer { background:#f7f7f7; padding:1.5rem 0;}
+.footer-menu ul { margin:0; padding:0; display:flex; justify-content:center; margin:0 0 .5rem}
+.footer-menu li { display:block; margin:0 1rem; font-size:.75rem;}
+.footer-menu a { color:#8a8a8a }
+.copyright { font-size:.75rem; color:#8a8a8a; }
+
+@media only screen and (max-width:1100px){
+	.section { padding:2rem 1rem; }
+}
+
+@media only screen and (max-width:40em){
+	.header .logo img { max-height:40px; }
+	.header .mainmenu { display:none; }
+}
